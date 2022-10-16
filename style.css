@@ -1,0 +1,273 @@
+/*start global rules*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+
+/*end gkobal rules*/
+/*stsrt header*/
+header {
+    background-color: #E5E5E5;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-left: 50px;
+    color: #23374D;
+}
+
+.nav {
+    margin-right: 80px;
+    padding-right: 20px;
+}
+
+.nav a {
+    text-decoration: none;
+    margin-left: 30px;
+    color: #23374D;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.nav :hover {
+    color: #1089FF;
+}
+
+/*end header*/
+/* start main section*/
+section {
+    padding: 100px 100px;
+}
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+    background: url(images/main.jpg) no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.info h2 {
+    font-size: 35px;
+
+    color: #DFF6FF;
+    padding-bottom: 30px;
+    font-weight: 400;
+
+}
+
+.info p {
+    font-size: 70px;
+    font-weight: 600;
+    color: rgb(6, 40, 61);
+    padding-bottom: 30px;
+}
+
+.info span {
+    font-size: 40px;
+    color: #DFF6FF;
+    font-weight: 500;
+    display: flex;
+    margin-top: 15px;
+
+
+
+}
+
+.main-btn {
+    display: flex;
+    padding: 20px 10px;
+    text-decoration: none;
+    color: #DFF6FF;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: #23374D;
+    border-radius: 10px;
+    width: 150px;
+    margin-bottom: 20px;
+    transition: 0.7s ease;
+}
+
+.main-btn:hover {
+    color: rgb(71, 181, 255);
+    transform: translate(1.1);
+}
+
+.icon a {
+    color: #DFF6FF;
+    margin-left: 15px;
+    padding-top: 10px;
+    font-size: 20px;
+
+}
+
+/*end main section*/
+/*start services section*/
+.service {
+    background-color: rgb(229, 229, 229);
+    width: 100%;
+
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(6, 40, 61);
+    font-size: 40px;
+    font-weight: 600;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+
+}
+
+.card {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 350px;
+    margin-left: 20px;
+    box-shadow: 0px 5px 25px rgba(1 1 1 / 15%);
+    background-color: white;
+    transition: 00.7s ease;
+    margin: 25px;
+    padding: 25px;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.service-icon {
+    color: rgb(71, 181, 255);
+    font-size: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.service-info h3 {
+    color: rgb(6, 40, 61);
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+
+}
+
+.service-info p {
+    text-align: center;
+    padding: 10px;
+    padding: 10px;
+}
+
+/*end services section*/
+/*start projects section*/
+.project {
+    background-color: rgb(37, 109, 133);
+
+}
+
+
+.project-card {
+
+    min-height: 14em;
+    width: 23em;
+    margin: 15px;
+    border: 2px solid rgb(229, 229, 229);
+    border-radius: 6px;
+    overflow: hidden;
+    background-color: rgb(229, 229, 229);
+
+
+
+}
+
+
+
+.project-img {
+    width: 100%;
+
+
+}
+
+.project-info p {
+    color: #142850;
+    padding: 10px;
+    margin: 5px;
+    font-size: 18px;
+}
+
+.project-info strong {
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-info .subinfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.project-info span {
+    display: flex;
+    padding: 8px;
+}
+
+.project-info a {
+    text-decoration: none;
+    color: rgb(16, 137, 255);
+    font-size: 24px;
+    font-weight: 500;
+    padding: 5px;
+    margin: 10px;
+    transition: 0.7s ease;
+}
+
+.project-info a:hover {
+    transform: scale(1.1);
+}
+
+/*end projects section*/
+/*start contact section*/
+.footer {
+    background-color: rgb(35, 55, 77);
+
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.footer-content span {
+    color: rgb(16, 137, 255);
+}
+
+/*end contact section*/
